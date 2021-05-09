@@ -1,0 +1,43 @@
+.profileImage {
+  display: flex;
+  justify-content: center;
+}
+.profileButton {
+  display: flex;
+  justify-content: center;
+}
+.profileInfo {
+  width: fit-content;
+  margin: auto;
+}
+.cardProfile {
+  width: 650px;
+  height: fit-content !important ;
+}
+@media only screen and (max-width: 700px) {
+  .cardProfile {
+    width: 90vw !important;
+    word-break: break-all;
+  }
+ 
+}
+.add-background2{
+  background-size: 200% auto;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    #4271f4 0%,
+    rgba(71, 102, 112, 0.212) 51%,
+    #4271f4 100%
+  );
+}
+.add-background2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.modalHeaderUserP {
+  background-color: #4271f4;
+  color: white;
+}

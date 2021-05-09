@@ -1,0 +1,10 @@
+.scroll-part {
+  height: 180px;
+  overflow: auto;
+}
+.project-teams {
+  height: 350px;
+}
+.new-team {
+  height: 500px;
+}

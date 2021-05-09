@@ -1,0 +1,22 @@
+{
+  "name": "GYM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd front1 && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"front\" \"npm run front\"",
+    "postinstall": "cd front1 && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "concurrently": "^5.3.0",
+    "create-context": "^1.0.0",
+    "react-bootstrap": "^1.5.0",
+    "react-elastic-carousel": "^0.11.1",
+    "styled-components": "^5.2.1"
+  }
+}

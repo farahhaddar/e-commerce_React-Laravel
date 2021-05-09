@@ -1,0 +1,362 @@
+.navbar-style{
+  background-color:rgb(50, 10, 92);
+  /* color:#f32a23; */
+  /* #bed1d8 */
+  /* #ffffff */
+}
+.nav-link{
+  color: #ffd000
+  !important;
+  font-weight: bold;
+  margin-left:5px;
+  Font-size:13px;
+}
+.nav-link:hover,
+.nav-link:active
+{
+background-color: transparent !important;
+color: white !important;
+box-shadow: none !important; 
+outline: none !important;
+}
+.user-icon:hover,
+.cart-icon:hover
+{
+color: #f32a23 !important;
+}
+
+.user-icon{
+  margin-right: 20px !important;
+}
+.flag{
+  outline:none  !important;
+  border:none  !important;
+  background-color:#241f33 !important;
+}
+
+.searchnav{
+  width:140px  !important;
+  border-radius: 30px 0px 0px 30px !important;
+  height: 50px   !important;
+  border: none;
+}
+.searchbtn{
+  background-color:#f32a23 !important;
+  border-radius: 0px 30px 30px 0px !important;
+  height: 50px   !important;
+  width:60px !important;
+  border: none;
+}
+
+.searchnav:focus
+{
+outline:none !important;
+box-shadow: none !important;
+}
+.schicon:active,
+.schicon:focus{
+outline:none !important;
+box-shadow: none !important;
+}
+.linkform:active
+.linkform:focus{
+  outline:none !important;
+box-shadow: none !important;
+}
+
+
+.flexrownav{
+  display: flex !important;
+  margin-left:0px;
+  margin-right:15px;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width:1200px )  { 
+
+.navbar-brand>img{
+  width:150px !important;
+  height:100px !important;
+}
+
+.nav-link{
+text-align: center !important;
+margin-top:3% !important;
+}
+.flexrownav{
+  position: absolute;
+  left: 10%;
+  top:6.5%;
+  transform: translatex(-40%);
+  display: flex;
+  margin-left: 35%;
+  }
+  .cart-icon{
+  margin-top: 10px !important;
+  }
+  
+
+}
+@media screen and (min-width: 280px) and (max-width: 370px){
+.searchnav{
+width:220px  !important;
+margin-top: 40px !important;
+margin-left: 2px !important;
+}
+.searchbtn{
+  width:35px  !important;
+  margin-top: 40px !important;
+  margin-left: 2px !important;
+}
+.flexrownav{
+  position: relative;
+  left: 10%;
+  top:6.5%;
+  transform: translatex(-40%);
+  display: flex;
+  margin-left: 40% !important;
+  }
+  .cart-icon{
+  margin-top: 10px !important;
+  font-size: 20px !important;
+  }
+  .user-icon{
+    font-size: 20px !important;
+  }
+  .linkform{
+    margin-left: 10% !important;
+  }
+  .nav-link{
+    margin-left: 0%!important;
+    font-size: 15px !important;
+   }
+
+}
+@media screen and (max-width: 279px){
+  .searchnav{
+    width:60px  !important;
+    }
+    .searchbtn{
+      width:40px  !important;
+    }
+    .flexrownav{
+      position: relative;
+      left: 6%;
+      top:0%;
+      display: flex;
+      margin-left: 15% !important;
+      }
+      .cart-icon{
+      margin-top: 10px !important;
+      margin-right: 10px !important;
+      font-size: 10px !important;
+      }
+      .user-icon{
+        font-size: 10px !important;
+      }
+      .linkform{
+        margin-left:0% !important;
+      }
+     .nav-link{
+        margin-left: 0%!important;
+        font-size: 15px !important;
+       }
+       .navbar-brand>img{
+         width:80px !important;
+         height: 10px;
+       }
+       .schicon{
+         font-size: 15px;
+         margin-left: 0% !important;
+}
+
+
+}
+
+    @media screen and (max-width: 500px){
+  .flexrownav{
+    position: relative;
+    display: flex;
+    }
+    .cart-icon{
+    margin-top: 10px !important;
+    font-size: 20px !important;
+    }
+    .user-icon{
+      margin-top: 10px !important;
+      font-size: 20px !important;
+    }
+    .flag{
+      outline:none  !important;
+      border:none  !important;
+      background-color:#241f33 !important;
+      width:40px !important;
+    }
+    .flagimg{
+      width: 20px !important;
+      height: 20px !important;
+      margin-top: 10px !important;
+    }
+    .linkform{
+      margin-left: 20%;
+    }
+    .isout,.singedIn{
+      margin-right:200px;
+    }
+    .searchnav{
+      width:150px  !important;
+      margin-left:40px ;
+      }
+}
+
+ @media screen and (min-width: 500px) and (max-width: 1000px) { 
+  .linkform{
+    margin-left: 38% !important;
+  }
+  .collapse,.navbar-collapse,.nav-link{
+    text-align: center !important;
+   
+   }
+   .searchnav{
+    width:200px  !important;
+    margin-left:-15px !important;
+    }
+   
+
+ }
+
+ 
+ 
+
+
+/* Model */
+.modelheader{
+top:0;
+left:0;
+right:0;
+bottom: 0%;
+}
+
+.popupbtn{
+height:40px !important;
+Width:100px !important;
+outline:none  !important;
+border:none  !important;
+background-color:red !important;
+border-radius: 30px;  
+color :white !important;
+}
+.popupbtn:hover{
+background-color: #241f33 !important;
+}
+
+.Modelfooter{
+position: relative;
+margin: auto;
+}
+
+.firsts{
+color:#241f33 !important; 
+font-weight: bold;
+font-size: 25px;
+padding-left: 3% !important ;
+padding-top: 3% !important ;
+background-color: initial;
+}
+.lira{
+color:red !important; 
+font-style: italic;
+font-size: 150% !important;
+}
+.modelheader{
+background-color: initial !important;
+padding:0rem !important;
+}
+.headerimage{
+width:100% ;
+height: 200px;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+border: 1px;
+border-radius: 30px 30px 0px 0px !important;
+}
+
+.modal {
+text-align: center;
+}
+.modal-content  {
+-webkit-border-radius: 30px !important;
+-moz-border-radius: 30px !important;
+border-radius: 40px  !important; 
+}
+
+/* .dropdown-toggle {
+
+margin-top: -8px !important;
+margin-left: 0% !important;
+margin-right: 100% !important;
+}
+.dropdown-item {
+  color:#241f33 !important;
+  font-weight: bold !important;
+}
+
+.dropdown-item:hover
+{
+background-color: #f32a23 !important;
+color:white !important;
+}
+.dropdown-item.active{
+  background-color: #f32a23 !important;
+  color:white !important;
+} */
+
+.menunav {
+  position: absolute;
+  width:90px ;
+  color: black;
+  background-color: white;
+  height: 100px -20px;
+  margin-top: 100px;
+  user-select: none;
+  z-index: 1;
+ 
+}
+.menunav div {
+  margin-top: 0px;
+}
+.menunav div div {
+  height: 30px;
+  width: 90px;
+  margin: auto;
+  cursor: pointer;
+}
+.menunav div div:hover {
+  background-color: rgb(202, 46, 46);
+  color: white;
+  
+}
+
+
+.menulink {
+  text-decoration: none;
+  color:black;
+  margin-right: 20px;
+}
+.menulink:hover{
+  background-color: rgb(202, 46, 46);
+  color: white;
+  text-decoration: none;
+}
+
+/* hide values of dropdown */
+.singedIn{
+  display: none;
+}
+
+.isout{
+  display: none;
+}
+

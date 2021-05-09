@@ -1,0 +1,24 @@
+.video-react
+{
+  padding: 0 !important;
+}
+/* video
+{
+  width: 100%;
+} */
+.video-react-progress-holder
+{
+  display: none;
+}
+.video-react-control-bar,.video-react-big-play-button
+{
+  display: flex;
+margin: auto !important;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+align-items: center;
+}
+.hh1{
+  font-family: "Berkshire Swash",handwriting !important;
+}

@@ -1,0 +1,47 @@
+.btnn:hover
+{
+opacity: 60%;
+}
+
+a
+{
+ text-decoration: none !important;
+}
+a:hover, a:focus {
+  color: #000000 !important;
+}
+h1{
+  font-family: 'Courier New', monospace !important;
+}
+
+.card-title h3,h2
+{
+  font-family: 'Berkshire Swash',handwriting !important;
+
+}
+p.card-text p
+{
+  font-family: 'Courier New', monospace !important;
+  text-align: justify;
+}
+.cardCat
+{
+  height: 45vh !important
+}
+.articles-body
+{
+  padding: 5.34em 6.67em;
+}
+a
+{
+  color: #bd952e !important;
+  transition: all .2s linear;
+}
+@media only screen and (max-width: 600px) {
+  .cardCat
+{
+  height: 60vh !important
+}
+
+}
+

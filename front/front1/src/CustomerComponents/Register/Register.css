@@ -1,0 +1,11 @@
+.errREg {
+  color: red;
+  font-size: x-small;
+}
+.registerCenter {
+  margin: auto;
+  /* display: flex; */
+  width: 50%;
+}
+#div1 input {
+}

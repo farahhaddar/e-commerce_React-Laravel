@@ -1,0 +1,14 @@
+.btnn:hover
+{
+opacity: 60%;
+}
+a
+{
+ text-decoration: none !important;
+}
+h2,h1{
+  font-family: "Lucida Console", "Courier New", monospace !important;
+
+}
+h1
+{  color:#DAA520;}

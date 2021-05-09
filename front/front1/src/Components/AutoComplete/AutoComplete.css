@@ -1,0 +1,13 @@
+.chooseTeamList {
+  background-color: white;
+  width: 233px;
+  overflow-y: scroll;
+  max-height: 100px;
+}
+.chooseTeam {
+  cursor: pointer;
+  width: 200px;
+}
+.chooseTeam:hover {
+  background-color: purple;
+}

@@ -1,0 +1,27 @@
+.view-cascade
+{
+  border: 10px solid rgb(192, 192, 192) !important;
+}
+.card-body-cascade
+{
+  font-family: "Lucida Console", "Courier New", monospace !important;
+  font-size: 2em;
+}
+
+.container-lg h1.react-reveal
+{
+  font-family: 'Berkshire Swash',handwriting !important;
+
+}
+@media only screen and (max-width: 450px) {
+
+  .card-body-cascade
+  {
+  font-size: 2.5em !important;
+}
+
+.row
+{
+  margin: auto !important;
+}
+}

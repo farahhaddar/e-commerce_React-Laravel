@@ -1,0 +1,58 @@
+.addComment {
+  padding: 7px;
+  background-color: #24a0ed;
+  border-color: #24a0ed;
+}
+.commentsSection {
+  width: 60%;
+  margin: auto;
+}
+.comment {
+  display: flex;
+}
+.subcomment {
+  display: flex;
+  /* width: 10%; */
+  margin-left: 50px;
+}
+.userImg img {
+  background-color: grey;
+  border-radius: 50%;
+}
+.userName {
+  font-weight: bold;
+}
+.writeComment,
+.replyComment {
+  width: 100%;
+  resize: none;
+}
+.commentdate {
+  color: grey;
+}
+.flex {
+  display: flex;
+}
+.reply {
+  color: #24a0ed;
+  cursor: pointer;
+}
+.reply:hover {
+  color: #2187c7;
+}
+.hidden {
+  display: none;
+}
+.link {
+  color: #24a0ed;
+  cursor: pointer;
+}
+.marginLink {
+  position: relative;
+  /* bottom: 0px; */
+  bottom: 100px;
+}
+.loadMore {
+  display: flex;
+  margin: auto;
+}

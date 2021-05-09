@@ -1,0 +1,11 @@
+.product {
+  padding-right: 20px;
+}
+.flexProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productAction {
+  display: flex;
+  justify-content: space-around;
+}

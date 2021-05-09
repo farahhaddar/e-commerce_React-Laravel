@@ -1,0 +1,16 @@
+.switch {
+  width: 250px;
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+  border: none;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.switchText {
+  text-decoration: none !important;
+  color: black;
+}
+.switchText:hover {
+  color: black;
+}

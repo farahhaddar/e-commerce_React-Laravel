@@ -1,0 +1,365 @@
+.App {
+  background-color: #eeeeee;
+}
+.pointer {
+  cursor: pointer;
+}
+.table {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.pn {
+  display: flex;
+  justify-content: space-between;
+}
+.previous,
+.next {
+  width: 200px;
+  background-color: rgba(220, 220, 220, 0.801);
+  border: none;
+  /* height: 30px; */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.row1 {
+  margin: auto;
+}
+.row0 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(220, 220, 220);
+  min-height: 60px;
+  align-items: center;
+  /* padding: 60px; */
+}
+.rowData:hover {
+  background-color: rgb(169, 169, 169);
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  align-items: center;
+}
+.hide {
+  visibility: hidden;
+}
+.col0 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.col00 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+.col1 {
+  width: 50%;
+}
+.col2 {
+  width: 33%;
+}
+.col3 {
+  width: 25%;
+}
+.col4 {
+  width: 20%;
+}
+.col5 {
+  width: 16.6%;
+}
+.actionTitle {
+  position: absolute;
+  right: 0px;
+  z-index: 0;
+  width: 100px !important;
+}
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.action div {
+  margin: 0 0 0 20px;
+}
+
+.search input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+.search input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(32, 36, 95);
+  -webkit-transition: border 500ms ease-out;
+  -moz-transition: border 500ms ease-out;
+  -o-transition: border 500ms ease-out;
+  transition: border 500ms ease-out;
+}
+.search input:active {
+  outline: none;
+  border-bottom: 1px solid rgb(6, 8, 134);
+  -webkit-transition: border 500ms ease-out;
+  -moz-transition: border 500ms ease-out;
+  -o-transition: border 500ms ease-out;
+  transition: border 500ms ease-out;
+}
+
+.container {
+  display: flex;
+  width: 100px !important;
+}
+
+.page {
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+.pageborder {
+  border-bottom: 1px solid grey;
+}
+.pageOptions {
+  position: absolute;
+  width: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px #000000;
+  margin-top: 30px;
+  user-select: none;
+  z-index: 1;
+}
+
+.pageOptions div {
+  margin-top: 5px;
+}
+.pageOptions div div {
+  height: 30px;
+  width: 90px;
+  margin: auto;
+  cursor: pointer;
+}
+.pageOptions div div:hover {
+  background-color: #241f33;
+  color: #fff;
+}
+.rows {
+  /* width: 100px; */
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+.rowsborder {
+  border-bottom: 1px solid grey;
+}
+.rowsOptions {
+  position: absolute;
+  width: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px #000000;
+  height: 190px;
+  margin-top: 30px;
+  user-select: none;
+  z-index: 1;
+}
+.rowsOptions div {
+  margin-top: 5px;
+}
+.rowsOptions div div {
+  height: 30px;
+  width: 90px;
+  margin: auto;
+  cursor: pointer;
+}
+.rowsOptions div div:hover {
+  background-color: #241f33;
+  color: white;
+}
+/* 
+        *** Modal Design *** 
+*/
+.modal-header {
+  background-color: #241f33;
+  color: white;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  border-top: none !important;
+  padding: 20px 10px 10px !important;
+  background-color: #eeeeee;
+}
+.modal-body {
+  background-color: #eeeeee;
+  padding-bottom: 2px !important;
+}
+
+/* 
+    *** FORM AND BUTTONS STYLES ***
+*/
+.new {
+  color: white;
+  margin-bottom: 15px;
+  width: 250px;
+  padding: 3px 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  /* margin-left: 20px; */
+}
+.add-background {
+  background-size: 200% auto;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    #241f33 0%,
+    rgba(71, 102, 112, 0.349) 51%,
+    #241f33 100%
+  );
+  /* background-image: linear-gradient(
+    to right,
+    rgb(179, 26, 77) 0%,
+    rgb(19, 25, 80) 51%,
+    rgb(179, 26, 77) 100%
+  ); */
+}
+.add-background:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.add {
+  width: 200px;
+  cursor: pointer;
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 500px) {
+  .text,
+  .input-file-div {
+    width: 85vw !important;
+  }
+}
+.text {
+  padding: 7px 7px 7px 0px;
+  border: none;
+  width: 460px;
+  background: none;
+  border-bottom: 1px solid gray;
+}
+.text:focus {
+  outline: none;
+}
+.label {
+  margin: 12px 0;
+  position: relative;
+  display: inline-block;
+}
+.input-type {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity: 0.5;
+}
+.text:focus + .input-type,
+.text:not(:placeholder-shown) + .input-type {
+  opacity: 1;
+  transform: scale(0.75) translateY(-100%) translateX(-15px);
+  color: rgb(77, 77, 77);
+}
+.text:focus,
+.text:not(:placeholder-shown) {
+  border-bottom: 1.8px solid #241f33;
+  transition: 0.3s ease-in-out;
+}
+
+/*     ***  ICON DESIGN  ***    */
+.task {
+}
+.pen {
+  cursor: pointer;
+  color: rgb(90, 140, 180);
+}
+.trash {
+  color: red;
+  cursor: pointer;
+}
+.link-to {
+  font-weight: 600;
+}
+.link-to,
+.link-to:hover {
+  text-decoration: none;
+}
+/*      
+         ***  INPUT TYPE FILE DESIGN   ***     
+*/
+.image-file {
+  margin-right: 80px;
+}
+.input-file-div {
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+  width: 460px;
+  border-bottom: 1px solid gray;
+  padding-top: 5px;
+}
+.file-label {
+  width: 300px;
+}
+.image-file {
+  margin-right: 80px;
+}
+.file-input {
+  opacity: 0;
+  outline: 0;
+  position: absolute;
+  width: 300px;
+}
+
+.input-file-div:hover,
+.input-file-div:focus {
+  color: #241f33;
+  border-bottom: 1.8px solid #241f33;
+}
+
+.file-icon {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  div {
+    font-size: small !important;
+  }
+  .add {
+    width: 120px !important;
+  }
+}
+@media only screen and (max-width: 330px) {
+  div,
+  .add {
+    font-size: x-small !important;
+  }
+  .add {
+    width: 100px !important;
+  }
+}

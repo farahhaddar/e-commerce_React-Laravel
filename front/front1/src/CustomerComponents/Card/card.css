@@ -1,0 +1,112 @@
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  width: 280px;
+  height:auto;
+  margin: 16px;
+  border: 1px solid #ccc;
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:rgb(0, 0, 0) !important;
+}
+.CardLINK{
+  color:black;
+}
+.CardLINK:hover{
+  text-decoration: none;
+  color:rgb(0, 0, 0) !important;
+}
+
+.CardDiv{
+  margin: auto;
+  display: flex;
+}
+.cardimg{
+  margin-top: 20px;
+  width:80%;
+  margin-left: 10%;
+  height: 200px;
+  cursor: pointer;
+  transition: transform .3s;
+}
+.cardimg:hover{
+-ms-transform: scale(0.5); /* IE 9 */
+-webkit-transform: scale(1); /* Safari 3-8 */
+transform: scale(1.2); 
+}
+.card-item{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.Flexbtn{
+  display:flex;
+  direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  align-items: center; 
+
+}
+
+.itemName{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.Picetitle{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 13px;
+}
+.itemPrice{
+color:#fdc930;
+}
+
+.priceCurncy{
+  font-style: italic;
+  font-size: 15px;
+}
+
+.Add{
+  font-size: 14px;
+  padding-left: 9px;
+  font-weight: bold;
+}
+
+.dets{
+  font-size: 14px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  
+}
+.dets:hover{
+  font-size: 15px;
+  text-decoration: none;
+  color:#fdc930;
+}
+
+.hr{
+  border: 1px solid rgb(201, 202, 201);
+  width:100% ;
+}
+
+.cartAddCont{
+  /* display:flex;
+  align-items: center; */
+  cursor: pointer;
+}
+
+.cartAddCont:hover{
+  color:#fdc930;
+  font-size: 15px;
+}
+
+

@@ -1,0 +1,36 @@
+#arrown {
+  color: black;
+  font-size: 4rem;
+  margin: auto;
+  display: block;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#arrown:active {
+  outline: none;
+  box-shadow: none;
+}
+#arrown:foucs {
+  outline: none;
+  box-shadow: none;
+}
+button.rec-dot {
+  background-color: rgb(235, 16, 16);
+  box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(223, 223, 223, 0.5);
+}
+
+.ripple-wave {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+}

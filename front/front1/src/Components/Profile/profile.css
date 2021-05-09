@@ -1,0 +1,28 @@
+.profileImage {
+  display: flex;
+  justify-content: center;
+}
+.profileButton {
+  display: flex;
+  justify-content: center;
+}
+.profileInfo {
+  width: fit-content;
+  margin: auto;
+}
+.cardProfile {
+  width: 650px;
+}
+.mystyle {
+  background-color: red !important;
+}
+@media only screen and (max-width: 700px) {
+  .cardProfile {
+    width: 90vw !important;
+  }
+}
+.card-body {
+  min-height: fit-content !important;
+  background-color: white;
+  margin-top: 30px;
+}
