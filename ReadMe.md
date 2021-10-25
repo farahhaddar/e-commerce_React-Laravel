@@ -18,6 +18,7 @@ Backend:
 5-php artisan migrate
 
 6- php artisan storage:link
+7- php artisan jwt:secret
 
 
 
